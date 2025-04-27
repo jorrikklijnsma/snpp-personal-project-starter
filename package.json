@@ -1,0 +1,37 @@
+{
+  "name": "snpp",
+  "version": "0.1.0",
+  "description": "Start New Personal Project - A CLI tool for initializing empty projects from templates",
+  "main": "src/index.js",
+  "bin": {
+    "snpp": "./bin/snpp.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node scripts/install-templates.js"
+  },
+  "keywords": [
+    "cli",
+    "project",
+    "template",
+    "scaffold",
+    "generator"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0",
+    "inquirer": "^8.2.5",
+    "fs-extra": "^11.1.1",
+    "simple-git": "^3.19.1",
+    "ora": "^5.4.1",
+    "glob": "^10.3.3",
+    "node-fetch": "^2.6.12",
+    "os": "^0.1.2",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

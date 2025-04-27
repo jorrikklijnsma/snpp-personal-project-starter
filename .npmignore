@@ -1,0 +1,26 @@
+# Development files
+.git
+.github
+.vscode
+node_modules
+npm-debug.log
+
+# Tests
+test
+tests
+__tests__
+coverage
+
+# CI/CD
+.travis.yml
+.gitlab-ci.yml
+.github/workflows
+
+# Configuration
+.eslintrc.js
+.prettier*
+.editorconfig
+
+# Misc
+.DS_Store
+*.log

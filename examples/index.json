@@ -1,0 +1,7 @@
+{
+  "projectTypes": [
+    "node-express",
+    "react-app",
+    "python-flask"
+  ]
+}
